@@ -38,9 +38,7 @@
     max-height: 100vh !important;
   }
 
-  .carousel-caption:nth-child(2){
-    text-shadow: none !important;
-  }
+
 
   .carousel-caption{
     top: 50%;
@@ -48,7 +46,6 @@
     text-align: left !important;
     width: 30% !important;
     height: fit-content;
-    text-shadow: 0 0 10px #000000;
   }
 
 .productName{
