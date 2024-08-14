@@ -55,6 +55,52 @@
     font-size: 1rem;
   }
 
+  .why-aerial-item{
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    column-gap: 24px;  
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: transform .5s ease 0s;
+    transition: transform .5s ease 0s;  
+  }
+
+  .why-aerial-item:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  .why-aerial-item .icon{
+    border: 1px solid #00000030;
+    color: #04a5e7;
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+   }
+
+   .why-aerial-item:hover .icon{
+    transform: rotateY(180deg);
+    border: 1px solid #04a5e7;
+   }
+
+  .why-aerial-item .name{
+    color: #161513;
+    display:flex;
+    align-items: center;
+    text-transform:capitalize !important;
+   }
+
+
+
+  .why-aerial-item .icon span{
+   font-size: 3rem;  
+  }
+
 .navbar .navbar-nav .active{
 position: relative;
 color:#04a5e7 !important;
