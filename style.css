@@ -259,6 +259,10 @@ color:#04a5e7 !important;
     color: #04a5e7;
   }
 
+  .commitments .card p{
+    margin-bottom: 0;
+  }
+
 
   .products .card{
     -webkit-transform: translateY(0px);
@@ -548,5 +552,23 @@ color:#04a5e7 !important;
     .vision .row div:nth-child(1){
       order: 2;
     }
+
+    .why-aerial-item{
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      column-gap: 16px;
+    }
+    
+    .why-aerial-item .icon{
+      width: 64px;
+      height: 64px;
+    }
+
+    .why-aerial-item .icon span{
+      font-size: 2rem;
+    }
    
   }
+
+  
+ 
