@@ -569,6 +569,9 @@ color:#04a5e7 !important;
     .why-aerial-item .icon span{
       font-size: 2rem;
     }
+    .navbar-brand img{
+      height: 52px !important;
+    }
    
   }
 
