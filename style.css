@@ -419,9 +419,47 @@ color:#04a5e7 !important;
     font-weight: normal; font-size: 20px;
   }
 
+
+  .policyHeader{
+    background-color: #04a5e7;
+  }
+
+  .policyHeader h5{
+    margin-bottom: 0;
+  }
+
+  .policy-big-Header h1{
+    margin-bottom: 0;
+  }
+
+  .policy hr{
+    border-bottom: 1px solid #b9b9b9;
+  }
+
+  .policyBody ol li{
+    margin: 1rem;
+  }
+
   .footer{
     background-color: #000000;
   }
+
+  
+  .footer .container .navlinks li{
+    float: left;
+    list-style: none;
+}
+
+.footer .container .navlinks{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer .container .otherLinks li{
+  float: left;
+  list-style: none;
+}
 
   .roboto-thin {
     font-family: "Roboto", sans-serif;
