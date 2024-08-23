@@ -608,6 +608,10 @@ color:#04a5e7 !important;
       left: 0;
     }
 
+    .footer .container .navlinks{
+      display: block !important;
+    }
+
     .section-title h1, .missionCol h1, .sectionGradient h1 {font-size:32px}
 
     .testimonials{
