@@ -590,6 +590,14 @@ color:#04a5e7 !important;
   margin: 0 40px;
 }
 
+.aboutBanner{
+  padding: 0;
+}
+.aboutBanner img{padding: 0; width: 80% !important;}
+.aboutImg img{
+  border-radius: 8px;
+}
+
 
 /* end of logo animation in css */
 
