@@ -56,6 +56,10 @@
     font-size: 1rem;
   }
 
+  .SkyguardImage img{
+    border-radius: 8px;
+  }
+
   .why-aerial-item{
     display: grid;
     grid-template-columns: 96px 1fr;
@@ -292,18 +296,59 @@ color:#04a5e7 !important;
   }
 
 
+  .product-heading{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+
   .products .card{
     -webkit-transform: translateY(0px);
   transform: translateY(0px);
   -webkit-transition: transform .5s ease 0s;
   transition: transform .5s ease 0s;
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   }
 
   .products .card:hover{
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
+
+
+  .featureCard{
+    background-color: #ffffff;
+    min-height: 150px;
+  }
+
+.featureCard:hover{
+  background-color: #04a5e7 !important;
+  transition: background-color .5s linear;
+  border: none;
+  color: #ffffff;
+}
+
+
+
+.featuresOrder{
+  display: flex;
+  align-items: center;
+  color:#04a5e7;
+  column-gap: 10px;
+}
+
+.featureCard:hover .featuresOrder{color:#ffffff;}
+.featureCard:hover .featuresOrder span{background-color:#ffffff;}
+
+.featuresOrder span{
+  display: block;
+  height:4px;
+  width: 50px;
+  background-color: #04a5e7;
+}
+
+
+
 
   .commitments .card{
     -webkit-transform: translateY(0px);
